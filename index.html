@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDo list</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="todo-list">
-            <h2>ToDo list</h2>
-            <div class="row">
-                <input type="text"  id="input-box" placeholder="Type your task">
-                <button onclick="addClick()">Add</button>
-            </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Task1</li>
-                <li>Task2</li>
-                <li>Task3</li> -->
-            </ul>
+      <div class="todo-list">
+        <h2>ToDo list</h2>
+        <div class="row">
+          <input
+            autocomplete="off"
+            type="text"
+            id="input-box"
+            placeholder="Type your task"
+          />
+          <button onclick="addClick()">Add</button>
         </div>
+        <ul id="list-container"></ul>
+      </div>
     </div>
     <script src="./script.js"></script>
-
-</body>
+  </body>
 </html>
